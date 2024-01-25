@@ -6,7 +6,7 @@ const Nav = () => {
         <h1>Bookly</h1>
         <div className="d-flex justify-content-around w-30">
         <Link to='/'>Home</Link> |&nbsp;
-        <Link to="#">Create a Book</Link>
+        <Link to="/books/create">Create a Book</Link>
         </div>
 
 
